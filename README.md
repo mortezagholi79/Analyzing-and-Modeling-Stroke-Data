@@ -19,4 +19,12 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 10) bmi: body mass index
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 12) stroke: 1 if the patient had a stroke or 0 if not
+
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
+
+
+## Note 
+
+There is a lot of information in << pandas_profiling.ProfileReport(Data_stork) >>  that we are not able to display.
+
+![image](https://user-images.githubusercontent.com/104719377/184639547-b4c4b7b0-a3a7-49a2-93e8-cae27925bce8.png)
